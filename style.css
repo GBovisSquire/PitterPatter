@@ -48,3 +48,10 @@ h2 {
   padding-bottom: 80px;
   background-color: rgb(225, 220, 208);
 }
+.btn {
+  border-radius: 4px;
+  padding: 10px 5px;
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: rgb(225, 220, 208);
+}
