@@ -1,3 +1,8 @@
+:root {
+  --primary-color: rgb(90, 84, 68);
+  --secondary-color: rgb(133, 94, 68);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
 h1 {
   font-family: "Poppins", sans-serif;
   font-size: 80px;
@@ -11,11 +16,32 @@ h2 {
   font-size: 25px;
   margin: 20px;
   margin-bottom: 50px;
+  color: rgb(46, 44, 42);
 }
 .navigation-links {
   display: flex;
   margin: 40px;
   justify-content: center;
+}
+.aboutLink {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: rgb(225, 220, 208);
+  margin: 20px;
+}
+.contactLink {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: rgb(225, 220, 208);
+  margin: 20px;
 }
 .homePageCards {
   padding-top: 30px;
