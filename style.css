@@ -81,3 +81,10 @@ h2 {
 .contactDetails {
   text-align: center;
 }
+footer {
+  background-color: var(--primary-color);
+}
+.footerh2 {
+  font-size: 40px;
+  color: rgb(225, 220, 208);
+}
